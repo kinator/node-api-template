@@ -1,2 +1,1 @@
-# node-api-template
-node-api-template
+# template-api-node
