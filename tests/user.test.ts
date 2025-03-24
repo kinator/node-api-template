@@ -1,7 +1,7 @@
-/*import request from 'supertest'
+import request from 'supertest'
 import { app } from '../src'
 import { prismaMock } from './jest.setup'
-import bcrypt from 'bcrypt'
+// import bcrypt from 'bcrypt'
 
 describe('User API', () => {
   describe('POST /users', () => {
@@ -22,7 +22,9 @@ describe('User API', () => {
       expect(response.status).toBe(201)
       expect(response.body).toEqual(createdUser)
     })
-
+  })
+})
+/*
     it('should return 500 if user creation fails', async () => {
       prismaMock.user.create.mockRejectedValue(new Error('Database error'))
 
